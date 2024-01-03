@@ -2,4 +2,6 @@
 
 This repository contains source code for the PDF Assistant application, that can answer questions based on the information contained in a given PDF.
 
-It uses LangChain4J framework to interact with OpenAI LLM, AstraDB to store the embeddings and Spring Boot as the framework to create REST API.
+It uses the LangChain4J framework to interact with OpenAI LLM, AstraDB to store the embeddings, and Spring Boot as the framework to create REST API.
+
+Link to Video Tutorial: https://youtu.be/mvvRXu_KJSU
