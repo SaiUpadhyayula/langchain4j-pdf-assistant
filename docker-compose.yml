@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  pgvector:
+    container_name: pgvector
+    image: pgvector/pgvector:pg16
+    ports:
+      - "5432:5432"
+    restart: always
+    environment:
+      - POSTGRES_DB=vectordb
+      - POSTGRES_USER=testuser
+      - POSTGRES_PASSWORD=testpwd
+    volumes:
+      - ./volume-data/postgres:/var/lib/postgresql/data

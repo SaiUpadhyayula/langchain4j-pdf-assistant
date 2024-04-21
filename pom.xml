@@ -15,6 +15,7 @@
     <description>pdf-assistant</description>
     <properties>
         <java.version>21</java.version>
+        <langchain4j-version>0.30.0</langchain4j-version>
     </properties>
     <dependencies>
         <dependency>
@@ -24,27 +25,27 @@
         <dependency>
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j</artifactId>
-            <version>0.25.0</version>
+            <version>${langchain4j-version}</version>
         </dependency>
         <dependency>
             <groupId>dev.langchain4j</groupId>
-            <artifactId>langchain4j-open-ai</artifactId>
-            <version>0.25.0</version>
+            <artifactId>langchain4j-ollama</artifactId>
+            <version>${langchain4j-version}</version>
         </dependency>
         <dependency>
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j-embeddings-all-minilm-l6-v2</artifactId>
-            <version>0.25.0</version>
+            <version>${langchain4j-version}</version>
         </dependency>
         <dependency>
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j-document-parser-apache-pdfbox</artifactId>
-            <version>0.25.0</version>
+            <version>${langchain4j-version}</version>
         </dependency>
         <dependency>
             <groupId>dev.langchain4j</groupId>
-            <artifactId>langchain4j-cassandra</artifactId>
-            <version>0.25.0</version>
+            <artifactId>langchain4j-pgvector</artifactId>
+            <version>0.30.0</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
